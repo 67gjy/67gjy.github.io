@@ -3729,149 +3729,1581 @@ h1.page-title + .tag-cloud-list {
   width: 100%;
 }
 #loading-box {
-  background: #000;
   position: fixed;
   z-index: 1000;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  text-align: center;
 }
 #loading-box.loaded {
   z-index: -1000;
 }
-#loading-box .centered {
-  width: 400px;
-  height: 400px;
+#loading-box.loaded .triangles-wrap {
+  display: none;
+}
+.triangles-wrap {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  background: #000;
-  filter: blur(10px) contrast(20);
+  -webkit-transform: translate(-50%, -66.66666666666667%);
+  -moz-transform: translate(-50%, -66.66666666666667%);
+  -o-transform: translate(-50%, -66.66666666666667%);
+  -ms-transform: translate(-50%, -66.66666666666667%);
+  transform: translate(-50%, -66.66666666666667%);
+  -ms-transform: translate(-50%, -66.66666666666667%);
+  -webkit-transform: translate(-50%, -66.66666666666667%);
+  -webkit-animation: animascale 2s linear alternate infinite;
+  -webkit-animation: animascale 2s linear alternate both infinite;
+  -moz-animation: animascale 2s linear alternate both infinite;
+  -o-animation: animascale 2s linear alternate both infinite;
+  -ms-animation: animascale 2s linear alternate both infinite;
+  animation: animascale 2s linear alternate both infinite;
 }
-#loading-box .centered .blob-1,
-#loading-box .centered .blob-2 {
-  width: 70px;
-  height: 70px;
+.triangles-zero,
+.triangles-ein,
+.triangles-dvai,
+.triangles-trei,
+.triangles-feir,
+.triangles-fei,
+.triangles-sei,
+.triangles-seiz,
+.triangles-eiz {
+  width: 0px;
+  height: 0px;
   position: absolute;
-  background: #fff;
-  border-radius: 50%;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -66.66666666666667%);
+  -moz-transform: translate(-50%, -66.66666666666667%);
+  -o-transform: translate(-50%, -66.66666666666667%);
+  -ms-transform: translate(-50%, -66.66666666666667%);
+  transform: translate(-50%, -66.66666666666667%);
+  -ms-transform: translate(-50%, -66.66666666666667%);
+  -webkit-transform: translate(-50%, -66.66666666666667%);
 }
-#loading-box .centered .blob-1 {
-  left: 20%;
-  -webkit-animation: osc-l 2.5s ease infinite;
-  -moz-animation: osc-l 2.5s ease infinite;
-  -o-animation: osc-l 2.5s ease infinite;
-  -ms-animation: osc-l 2.5s ease infinite;
-  animation: osc-l 2.5s ease infinite;
+.triangles-zero {
+  border-style: solid;
+  border-width: 0 5px 8.7px 5px;
+  border-color: transparent transparent #1274b6 transparent;
+  -webkit-animation: anima 2s linear reverse both infinite 4s, animacolorzero 2s linear alternate both infinite;
+  -webkit-animation: anima 2s linear reverse both infinite 4s, animacolorzero 2s linear alternate both infinite;
+  -moz-animation: anima 2s linear reverse both infinite 4s, animacolorzero 2s linear alternate both infinite;
+  -o-animation: anima 2s linear reverse both infinite 4s, animacolorzero 2s linear alternate both infinite;
+  -ms-animation: anima 2s linear reverse both infinite 4s, animacolorzero 2s linear alternate both infinite;
+  animation: anima 2s linear reverse both infinite 4s, animacolorzero 2s linear alternate both infinite;
+  -webkit-transform-origin: top left;
 }
-#loading-box .centered .blob-2 {
-  left: 80%;
-  -webkit-animation: osc-r 2.5s ease infinite;
-  -moz-animation: osc-r 2.5s ease infinite;
-  -o-animation: osc-r 2.5s ease infinite;
-  -ms-animation: osc-r 2.5s ease infinite;
-  animation: osc-r 2.5s ease infinite;
-  background: #0ff;
+.triangles-ein {
+  border-style: solid;
+  border-width: 0 10px 17.3px 10px;
+  border-color: transparent transparent #167bbf transparent;
+  -webkit-animation: anima 2s linear both infinite 4.2s, animacolorein 2s linear alternate both infinite;
+  -webkit-animation: anima 2s linear both infinite 4.2s, animacolorein 2s linear alternate both infinite;
+  -moz-animation: anima 2s linear both infinite 4.2s, animacolorein 2s linear alternate both infinite;
+  -o-animation: anima 2s linear both infinite 4.2s, animacolorein 2s linear alternate both infinite;
+  -ms-animation: anima 2s linear both infinite 4.2s, animacolorein 2s linear alternate both infinite;
+  animation: anima 2s linear both infinite 4.2s, animacolorein 2s linear alternate both infinite;
+  -webkit-transform-origin: top left;
 }
-@-moz-keyframes osc-l {
+.triangles-dvai {
+  border-style: solid;
+  border-width: 0 20px 34.6px 20px;
+  border-color: transparent transparent #1b82c8 transparent;
+  -webkit-animation: anima 2s linear reverse both infinite 4.4s, animacolordvai 2s linear alternate both infinite;
+  -webkit-animation: anima 2s linear reverse both infinite 4.4s, animacolordvai 2s linear alternate both infinite;
+  -moz-animation: anima 2s linear reverse both infinite 4.4s, animacolordvai 2s linear alternate both infinite;
+  -o-animation: anima 2s linear reverse both infinite 4.4s, animacolordvai 2s linear alternate both infinite;
+  -ms-animation: anima 2s linear reverse both infinite 4.4s, animacolordvai 2s linear alternate both infinite;
+  animation: anima 2s linear reverse both infinite 4.4s, animacolordvai 2s linear alternate both infinite;
+  -webkit-transform-origin: top left;
+}
+.triangles-trei {
+  border-style: solid;
+  border-width: 0 40px 69.3px 40px;
+  border-color: transparent transparent #228bd2 transparent;
+  -webkit-animation: anima 2s linear both infinite 4.6s, animacolortrei 2s linear alternate both infinite;
+  -webkit-animation: anima 2s linear both infinite 4.6s, animacolortrei 2s linear alternate both infinite;
+  -moz-animation: anima 2s linear both infinite 4.6s, animacolortrei 2s linear alternate both infinite;
+  -o-animation: anima 2s linear both infinite 4.6s, animacolortrei 2s linear alternate both infinite;
+  -ms-animation: anima 2s linear both infinite 4.6s, animacolortrei 2s linear alternate both infinite;
+  animation: anima 2s linear both infinite 4.6s, animacolortrei 2s linear alternate both infinite;
+  -webkit-transform-origin: top left;
+}
+.triangles-feir {
+  border-style: solid;
+  border-width: 0 80px 138.6px 80px;
+  border-color: transparent transparent #2992d9 transparent;
+  -webkit-animation: anima 2s linear reverse both infinite 4.8s, animacolorfeir 2s linear alternate both infinite;
+  -webkit-animation: anima 2s linear reverse both infinite 4.8s, animacolorfeir 2s linear alternate both infinite;
+  -moz-animation: anima 2s linear reverse both infinite 4.8s, animacolorfeir 2s linear alternate both infinite;
+  -o-animation: anima 2s linear reverse both infinite 4.8s, animacolorfeir 2s linear alternate both infinite;
+  -ms-animation: anima 2s linear reverse both infinite 4.8s, animacolorfeir 2s linear alternate both infinite;
+  animation: anima 2s linear reverse both infinite 4.8s, animacolorfeir 2s linear alternate both infinite;
+  -webkit-transform-origin: top left;
+}
+.triangles-fei {
+  border-style: solid;
+  border-width: 0 160px 277.1px 160px;
+  border-color: transparent transparent #3498db transparent;
+  -webkit-animation: anima 2s linear both infinite 5s, animacolorfei 2s linear alternate both infinite;
+  -webkit-animation: anima 2s linear both infinite 5s, animacolorfei 2s linear alternate both infinite;
+  -moz-animation: anima 2s linear both infinite 5s, animacolorfei 2s linear alternate both infinite;
+  -o-animation: anima 2s linear both infinite 5s, animacolorfei 2s linear alternate both infinite;
+  -ms-animation: anima 2s linear both infinite 5s, animacolorfei 2s linear alternate both infinite;
+  animation: anima 2s linear both infinite 5s, animacolorfei 2s linear alternate both infinite;
+  -webkit-transform-origin: top left;
+}
+.triangles-sei {
+  border-style: solid;
+  border-width: 0 320px 554.3px 320px;
+  border-color: transparent transparent #3f9edd transparent;
+  -webkit-animation: anima 2s linear reverse both infinite 5.2s, animacolorsei 2s linear alternate both infinite;
+  -webkit-animation: anima 2s linear reverse both infinite 5.2s, animacolorsei 2s linear alternate both infinite;
+  -moz-animation: anima 2s linear reverse both infinite 5.2s, animacolorsei 2s linear alternate both infinite;
+  -o-animation: anima 2s linear reverse both infinite 5.2s, animacolorsei 2s linear alternate both infinite;
+  -ms-animation: anima 2s linear reverse both infinite 5.2s, animacolorsei 2s linear alternate both infinite;
+  animation: anima 2s linear reverse both infinite 5.2s, animacolorsei 2s linear alternate both infinite;
+  -webkit-transform-origin: top left;
+}
+.triangles-seiz {
+  border-style: solid;
+  border-width: 0 640px 1108.5px 640px;
+  border-color: transparent transparent #48a2de transparent;
+  -webkit-animation: anima 2s linear both infinite 5.4s, animacolorseiz 2s linear alternate both infinite;
+  -webkit-animation: anima 2s linear both infinite 5.4s, animacolorseiz 2s linear alternate both infinite;
+  -moz-animation: anima 2s linear both infinite 5.4s, animacolorseiz 2s linear alternate both infinite;
+  -o-animation: anima 2s linear both infinite 5.4s, animacolorseiz 2s linear alternate both infinite;
+  -ms-animation: anima 2s linear both infinite 5.4s, animacolorseiz 2s linear alternate both infinite;
+  animation: anima 2s linear both infinite 5.4s, animacolorseiz 2s linear alternate both infinite;
+  -webkit-transform-origin: top left;
+}
+.triangles-eiz {
+  border-style: solid;
+  border-width: 0 1280px 2217px 1280px;
+  border-color: transparent transparent #59aae0 transparent;
+  -webkit-animation: anima 2s linear reverse both infinite 5.6s, animacoloreiz 2s linear alternate both infinite;
+  -webkit-animation: anima 2s linear reverse both infinite 5.6s, animacoloreiz 2s linear alternate both infinite;
+  -moz-animation: anima 2s linear reverse both infinite 5.6s, animacoloreiz 2s linear alternate both infinite;
+  -o-animation: anima 2s linear reverse both infinite 5.6s, animacoloreiz 2s linear alternate both infinite;
+  -ms-animation: anima 2s linear reverse both infinite 5.6s, animacoloreiz 2s linear alternate both infinite;
+  animation: anima 2s linear reverse both infinite 5.6s, animacoloreiz 2s linear alternate both infinite;
+  -webkit-transform-origin: top left;
+}
+@-webkit-keyframes anima {
+  from {
+    -webkit-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+  }
+}
+@-webkit-keyframes animacolorzero {
   0% {
-    left: 20%;
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  25% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #228bd2 transparent;
   }
   50% {
-    left: 50%;
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  75% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #48a2de transparent;
   }
   100% {
-    left: 20%;
+    border-color: transparent transparent #59aae0 transparent;
   }
 }
-@-webkit-keyframes osc-l {
+@-webkit-keyframes animacolorein {
   0% {
-    left: 20%;
+    border-color: transparent transparent #167bbf transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  25% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #2992d9 transparent;
   }
   50% {
-    left: 50%;
+    border-color: transparent transparent #3498db transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  75% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #59aae0 transparent;
   }
   100% {
-    left: 20%;
+    border-color: transparent transparent #1274b6 transparent;
   }
 }
-@-o-keyframes osc-l {
+@-webkit-keyframes animacolordvai {
   0% {
-    left: 20%;
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  25% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #3498db transparent;
   }
   50% {
-    left: 50%;
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  75% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #1274b6 transparent;
   }
   100% {
-    left: 20%;
+    border-color: transparent transparent #167bbf transparent;
   }
 }
-@keyframes osc-l {
+@-webkit-keyframes animacolortrei {
   0% {
-    left: 20%;
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  25% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #3f9edd transparent;
   }
   50% {
-    left: 50%;
+    border-color: transparent transparent #48a2de transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  75% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #167bbf transparent;
   }
   100% {
-    left: 20%;
+    border-color: transparent transparent #1b82c8 transparent;
   }
 }
-@-moz-keyframes osc-r {
+@-webkit-keyframes animacolorfeir {
   0% {
-    left: 80%;
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  25% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #48a2de transparent;
   }
   50% {
-    left: 50%;
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  75% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #1b82c8 transparent;
   }
   100% {
-    left: 80%;
+    border-color: transparent transparent #228bd2 transparent;
   }
 }
-@-webkit-keyframes osc-r {
+@-webkit-keyframes animacolorfei {
   0% {
-    left: 80%;
+    border-color: transparent transparent #3498db transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  25% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #59aae0 transparent;
   }
   50% {
-    left: 50%;
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  75% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #228bd2 transparent;
   }
   100% {
-    left: 80%;
+    border-color: transparent transparent #2992d9 transparent;
   }
 }
-@-o-keyframes osc-r {
+@-webkit-keyframes animacolorsei {
   0% {
-    left: 80%;
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  25% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #1274b6 transparent;
   }
   50% {
-    left: 50%;
+    border-color: transparent transparent #167bbf transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  75% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #2992d9 transparent;
   }
   100% {
-    left: 80%;
+    border-color: transparent transparent #3498db transparent;
   }
 }
-@keyframes osc-r {
+@-webkit-keyframes animacolorseiz {
   0% {
-    left: 80%;
+    border-color: transparent transparent #48a2de transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  25% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #167bbf transparent;
   }
   50% {
-    left: 50%;
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  75% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #3498db transparent;
   }
   100% {
-    left: 80%;
+    border-color: transparent transparent #3f9edd transparent;
+  }
+}
+@-webkit-keyframes animacoloreiz {
+  0% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  25% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  50% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  75% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  100% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+}
+@-webkit-keyframes animascale {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+  }
+}
+@-moz-keyframes anima {
+  from {
+    -webkit-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+    -moz-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+    -o-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+    -ms-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+    transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+    -moz-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+    -o-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+    -ms-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+    transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+  }
+}
+@-webkit-keyframes anima {
+  from {
+    -webkit-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+    -moz-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+    -o-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+    -ms-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+    transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+    -moz-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+    -o-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+    -ms-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+    transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+  }
+}
+@-o-keyframes anima {
+  from {
+    -webkit-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+    -moz-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+    -o-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+    -ms-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+    transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+    -moz-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+    -o-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+    -ms-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+    transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+  }
+}
+@keyframes anima {
+  from {
+    -webkit-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+    -moz-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+    -o-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+    -ms-transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+    transform: rotate(0deg) translate(-50%, -66.66666666666667%);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+    -moz-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+    -o-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+    -ms-transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+    transform: rotate(360deg) translate(-50%, -66.66666666666667%);
+  }
+}
+@-moz-keyframes animacolorzero {
+  0% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  25% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  50% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  75% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  100% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+}
+@-webkit-keyframes animacolorzero {
+  0% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  25% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  50% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  75% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  100% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+}
+@-o-keyframes animacolorzero {
+  0% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  25% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  50% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  75% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  100% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+}
+@keyframes animacolorzero {
+  0% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  25% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  50% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  75% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  100% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+}
+@-moz-keyframes animacolorein {
+  0% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  25% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  50% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  75% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  100% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+}
+@-webkit-keyframes animacolorein {
+  0% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  25% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  50% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  75% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  100% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+}
+@-o-keyframes animacolorein {
+  0% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  25% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  50% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  75% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  100% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+}
+@keyframes animacolorein {
+  0% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  25% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  50% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  75% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  100% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+}
+@-moz-keyframes animacolordvai {
+  0% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  25% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  50% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  75% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  100% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+}
+@-webkit-keyframes animacolordvai {
+  0% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  25% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  50% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  75% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  100% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+}
+@-o-keyframes animacolordvai {
+  0% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  25% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  50% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  75% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  100% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+}
+@keyframes animacolordvai {
+  0% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  25% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  50% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  75% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  100% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+}
+@-moz-keyframes animacolortrei {
+  0% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  25% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  50% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  75% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  100% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+}
+@-webkit-keyframes animacolortrei {
+  0% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  25% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  50% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  75% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  100% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+}
+@-o-keyframes animacolortrei {
+  0% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  25% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  50% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  75% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  100% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+}
+@keyframes animacolortrei {
+  0% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  25% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  50% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  75% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  100% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+}
+@-moz-keyframes animacolorfeir {
+  0% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  25% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  50% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  75% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  100% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+}
+@-webkit-keyframes animacolorfeir {
+  0% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  25% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  50% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  75% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  100% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+}
+@-o-keyframes animacolorfeir {
+  0% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  25% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  50% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  75% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  100% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+}
+@keyframes animacolorfeir {
+  0% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  25% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  50% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  75% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  100% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+}
+@-moz-keyframes animacolorfei {
+  0% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  25% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  50% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  75% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  100% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+}
+@-webkit-keyframes animacolorfei {
+  0% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  25% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  50% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  75% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  100% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+}
+@-o-keyframes animacolorfei {
+  0% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  25% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  50% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  75% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  100% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+}
+@keyframes animacolorfei {
+  0% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  25% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  50% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  75% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  100% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+}
+@-moz-keyframes animacolorsei {
+  0% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  25% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  50% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  75% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  100% {
+    border-color: transparent transparent #3498db transparent;
+  }
+}
+@-webkit-keyframes animacolorsei {
+  0% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  25% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  50% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  75% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  100% {
+    border-color: transparent transparent #3498db transparent;
+  }
+}
+@-o-keyframes animacolorsei {
+  0% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  25% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  50% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  75% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  100% {
+    border-color: transparent transparent #3498db transparent;
+  }
+}
+@keyframes animacolorsei {
+  0% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  25% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  50% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  75% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  100% {
+    border-color: transparent transparent #3498db transparent;
+  }
+}
+@-moz-keyframes animacolorseiz {
+  0% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  25% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  50% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  75% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  100% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+}
+@-webkit-keyframes animacolorseiz {
+  0% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  25% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  50% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  75% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  100% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+}
+@-o-keyframes animacolorseiz {
+  0% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  25% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  50% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  75% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  100% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+}
+@keyframes animacolorseiz {
+  0% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  25% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  50% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  75% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  100% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+}
+@-moz-keyframes animacoloreiz {
+  0% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  25% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  50% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  75% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  100% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+}
+@-webkit-keyframes animacoloreiz {
+  0% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  25% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  50% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  75% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  100% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+}
+@-o-keyframes animacoloreiz {
+  0% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  25% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  50% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  75% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  100% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+}
+@keyframes animacoloreiz {
+  0% {
+    border-color: transparent transparent #59aae0 transparent;
+  }
+  12.5% {
+    border-color: transparent transparent #1274b6 transparent;
+  }
+  25% {
+    border-color: transparent transparent #167bbf transparent;
+  }
+  37.5% {
+    border-color: transparent transparent #1b82c8 transparent;
+  }
+  50% {
+    border-color: transparent transparent #228bd2 transparent;
+  }
+  62.5% {
+    border-color: transparent transparent #2992d9 transparent;
+  }
+  75% {
+    border-color: transparent transparent #3498db transparent;
+  }
+  87.5% {
+    border-color: transparent transparent #3f9edd transparent;
+  }
+  100% {
+    border-color: transparent transparent #48a2de transparent;
+  }
+}
+@-moz-keyframes animascale {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+  }
+}
+@-webkit-keyframes animascale {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+  }
+}
+@-o-keyframes animascale {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+  }
+}
+@keyframes animascale {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
   }
 }
 #pagination .pagination {
