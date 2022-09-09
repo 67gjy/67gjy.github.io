@@ -2372,7 +2372,7 @@ figure.highlight pre .javascript .function {
   font-size: 1.5em;
 }
 #recent-posts > .recent-post-item:not(:first-child) {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 #recent-posts > .recent-post-item {
   display: -webkit-box;
@@ -2394,7 +2394,7 @@ figure.highlight pre .javascript .function {
   -webkit-align-items: center;
   align-items: center;
   overflow: hidden;
-  height: 18em;
+  height: 20em;
 }
 @media screen and (max-width: 768px) {
   #recent-posts > .recent-post-item {
@@ -2406,6 +2406,11 @@ figure.highlight pre .javascript .function {
     flex-direction: column;
     height: auto;
   }
+}
+#recent-posts > .recent-post-item:hover {
+  -webkit-box-shadow: 0 0 40px #fff;
+  box-shadow: 0 0 40px #fff;
+  height: 24em;
 }
 #recent-posts > .recent-post-item:hover img.post_bg {
   -webkit-transform: scale(1.1);
@@ -2466,8 +2471,8 @@ figure.highlight pre .javascript .function {
   }
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-title {
-  color: var(--text-highlight-color);
-  font-size: 1.72em;
+  color: #330867;
+  font-size: 3em;
   line-height: 1.4;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
