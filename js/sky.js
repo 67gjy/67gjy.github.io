@@ -91,7 +91,7 @@ function starForge() {
         geometry.vertices.push(item);
     }
 
-    stars = new THREE.PointCloud(geometry, starStuff);
+    stars = new THREE.Points(geometry, starStuff);
     scene.add(stars);
 }
 
